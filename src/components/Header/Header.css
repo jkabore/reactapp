@@ -1,0 +1,27 @@
+.header{
+	background-color: #858570;
+	position: relative;
+	width: 100%;
+	border-width: 30%;
+	flex-flow:space-between;
+	
+	
+}
+
+.scores{
+	float:right;
+	font-family: cursive;
+	font-size: 25px;
+	
+}
+.header{
+	margin-top: -40px;
+	
+}
+.message{
+	font-size: 23px;
+	animation:0ms;
+
+    
+}
+

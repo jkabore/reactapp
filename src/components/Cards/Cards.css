@@ -1,0 +1,30 @@
+.card > .img-container {
+    margin: 10px;
+    height: 180px;
+    width: 180px;
+  }
+  
+  
+  .card > .img-container > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(19, 19, 54);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 9px;
+    background:black;
+  }
+  
+  .zoom {
+      transition: transform .2s; 
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      box-shadow:  0 11px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .zoom:hover {
+      transform: scale(1.07); 
+  }
